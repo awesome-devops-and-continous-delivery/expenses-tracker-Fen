@@ -2,6 +2,7 @@ name: build file
 on: [push]
 jobs:
     build_steps:
+        runs-on: ubuntu-latest
         steps:
         - name: printing
           run: echo "This is a print from build file"
