@@ -4,4 +4,4 @@ jobs:
     build_steps:
         steps:
         - name: printing
-            run: echo "This is a print from build file"
+          run: echo "This is a print from build file"
