@@ -6,7 +6,7 @@ Build the image
 docker build -t my-nginx-gui:v1 .
 ```
 
-Run
+Run the container
 
 ```sh
 
