@@ -1,0 +1,7 @@
+name: build file
+on: [push]
+jobs:
+    build_steps:
+        steps:
+        - name: printing
+            run: echo "This is a print from build file"
