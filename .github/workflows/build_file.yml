@@ -4,5 +4,8 @@ jobs:
     build_steps:
         runs-on: ubuntu-latest
         steps:
+        - uses: actions/checkout@master
+          with:
+            ref: refs/heads/master
         - name: printing
           run: echo "This is a print from build file"
